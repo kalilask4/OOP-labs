@@ -164,6 +164,23 @@ namespace OOPlaba1
                 Pressure_whells[0], Pressure_whells[1], Pressure_whells[2], Pressure_whells[3]);
         }
 
+        //метод, определяющий более быстрый автомобиль из двух(возвращает true, если скорость текущего авто выше)
+        public bool is_car_faster(Car car2)
+        {
+            if (this.Current_speed > car2.Current_speed)
+                return true;
+            else
+                return false;
+        }
+
+        public static Car search_the_fastest_car(Car car1, Car car2, Car car3)
+        {
+            if (car1.Current_speed > car2.Current_speed & car1.Current_speed > car3.Current_speed)
+                return car1;
+            if (car2.Current_speed > car3.Current_speed)
+                return car2;
+            return car3;
+        }
 
     }
 }

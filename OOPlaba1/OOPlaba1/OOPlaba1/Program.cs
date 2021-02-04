@@ -43,6 +43,15 @@ namespace OOPlaba1
             car3.check_wheel_breakdown();
             carElon.check_wheel_breakdown();
             Console.WriteLine("__________________________________________");
+            //Console.WriteLine(carElon.is_car_faster(carRick));
+            Console.WriteLine("Determining more faster car. Is {1} {2} faster then {2} {3}: {4}.",
+                carRick.auto_brands, carRick.Model, carElon.auto_brands, carElon.Model, carRick.is_car_faster(carElon));
+            Console.WriteLine("__________________________________________");
+            Car fastest_car = Car.search_the_fastest_car(carBat, carElon, carRick);
+            Console.WriteLine("Determining the fastest car. Among {0} {1}, {2} {3}, {4} {5} the fastest car is {6} {7}.",
+                carBat.auto_brands, carBat.Model, carElon.auto_brands, carRick.Model, carRick.auto_brands, carRick.Model,
+                fastest_car.auto_brands, Car.search_the_fastest_car(carBat, carElon, carRick).Model);
+
         }
     }
 }
