@@ -23,7 +23,15 @@ namespace OOPlaba1
             //массив заполнен не полностью, но все работает благодаря params
             Car carBat = new Car("Ford", "Lincoln Futura", 80, 50.0, 140, 2, 2, 2.9); //
             Console.WriteLine(carBat);
-            Console.WriteLine("__________________________________________");
+            
+            Car carBat_copy = carBat;
+            Console.WriteLine("carBat_copy is carBat: ");
+            //Console.WriteLine(carBat_copy == carBat);
+            Console.WriteLine("Speed carBat before changing ");
+            Console.WriteLine(carBat.Current_speed);
+            Console.WriteLine("Speed carBat after changing copy carBat: ");
+            carBat_copy.Current_speed = 150;
+            Console.WriteLine(carBat.Current_speed);
         }
     }
 }
