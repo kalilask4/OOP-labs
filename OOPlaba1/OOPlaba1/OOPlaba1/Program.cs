@@ -6,7 +6,8 @@ namespace OOPlaba1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Car car1 = new Car();
+            Console.WriteLine(car1);
         }
     }
 }
