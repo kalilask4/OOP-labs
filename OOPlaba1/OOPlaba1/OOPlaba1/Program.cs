@@ -33,7 +33,7 @@ namespace OOPlaba1
             carBat_copy.Current_speed = 150;
             Console.WriteLine(carBat.Current_speed);
             Console.WriteLine("__________________________________________");
-            Console.WriteLine("Calculation emainder mileage");
+            Console.WriteLine("Calculation remainder mileage");
             Console.WriteLine("Remainder mileage for {0} {1} are {2} km.",
                 carBat.auto_brands, carBat.Model, carBat.calc_remainder_mileage());
             Console.WriteLine("Remainder mileage for {0} {1} are {2} km.",
