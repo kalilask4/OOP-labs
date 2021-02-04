@@ -119,6 +119,10 @@ namespace OOPlaba1
                 }
             }
         }
+        public double calc_remainder_mileage()
+        {
+            return ((this.Fuel_tank_capacity - this.Fuel_quantity) / this.Fuel_consumption);
+        }
 
         public override string ToString()
         {
