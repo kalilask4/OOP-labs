@@ -124,6 +124,33 @@ namespace OOPlaba1
             return ((this.Fuel_tank_capacity - this.Fuel_quantity) / this.Fuel_consumption);
         }
 
+        public bool check_wheel_breakdown()
+        {
+            int i = 0;
+            bool is_wheel_breakdown = false;
+            foreach (double p in Pressure_whells)
+            {
+                if (p <= 2)
+                {
+                    Current_speed = 0;
+                    //Console.WriteLine("Current speed {0} {1} has been reset to 0 km/h", this.auto_brands, this.Model);
+                    is_wheel_breakdown = true;
+                    break;
+                }
+                else
+                {
+                    //Console.WriteLine("Whell's pressure is ok. Currenе speed {0} {1} is {2} km/h", this.auto_brands, this.Model, this.Current_speed);
+                }
+                i++;
+                if (i >= 4) break;
+            }
+            if (is_wheel_breakdown)
+                Console.WriteLine("Checking {0} {1}. Whell pressure isn't ok. Current speed has been reset to {2} km/h", this.auto_brands, this.Model, this.Current_speed);
+            else
+                Console.WriteLine("Checking {0} {1}. Whell pressure is ok. Currenе speed is {2} km/h", this.auto_brands, this.Model, this.Current_speed);
+            return is_wheel_breakdown;
+        }
+
         public override string ToString()
         {
             //return base.ToString();

@@ -32,6 +32,17 @@ namespace OOPlaba1
             Console.WriteLine("Speed carBat after changing copy carBat: ");
             carBat_copy.Current_speed = 150;
             Console.WriteLine(carBat.Current_speed);
+            Console.WriteLine("__________________________________________");
+            Console.WriteLine("Calculation emainder mileage");
+            Console.WriteLine("Remainder mileage for {0} {1} are {2} km.",
+                carBat.auto_brands, carBat.Model, carBat.calc_remainder_mileage());
+            Console.WriteLine("Remainder mileage for {0} {1} are {2} km.",
+                carBat.auto_brands, carBat.Model, carBat.calc_remainder_mileage());
+            Console.WriteLine("__________________________________________");
+            Console.WriteLine("Сheck wheel breakdown");
+            car3.check_wheel_breakdown();
+            carElon.check_wheel_breakdown();
+            Console.WriteLine("__________________________________________");
         }
     }
 }
