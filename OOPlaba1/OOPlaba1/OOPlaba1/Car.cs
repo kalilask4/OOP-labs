@@ -97,6 +97,7 @@ namespace OOPlaba1
             }
         }
 
+
         public double[] Pressure_whells
         {
             get
@@ -118,7 +119,6 @@ namespace OOPlaba1
                 }
             }
         }
-
         public double calc_remainder_mileage()
         {
             return ((this.Fuel_tank_capacity - this.Fuel_quantity) / this.Fuel_consumption);
