@@ -6,7 +6,8 @@ namespace OOPlaba3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AutoService autoService1 = new AutoService();
+            Console.WriteLine(autoService1);
         }
     }
 }
