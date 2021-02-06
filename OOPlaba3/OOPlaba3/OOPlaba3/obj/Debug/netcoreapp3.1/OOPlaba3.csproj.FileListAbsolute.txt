@@ -1,0 +1,13 @@
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\bin\Debug\netcoreapp3.1\OOPlaba3.exe
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\bin\Debug\netcoreapp3.1\OOPlaba3.deps.json
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\bin\Debug\netcoreapp3.1\OOPlaba3.runtimeconfig.json
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\bin\Debug\netcoreapp3.1\OOPlaba3.runtimeconfig.dev.json
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\bin\Debug\netcoreapp3.1\OOPlaba3.dll
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\bin\Debug\netcoreapp3.1\OOPlaba3.pdb
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\obj\Debug\netcoreapp3.1\OOPlaba3.csprojAssemblyReference.cache
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\obj\Debug\netcoreapp3.1\OOPlaba3.AssemblyInfoInputs.cache
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\obj\Debug\netcoreapp3.1\OOPlaba3.AssemblyInfo.cs
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\obj\Debug\netcoreapp3.1\OOPlaba3.csproj.CoreCompileInputs.cache
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\obj\Debug\netcoreapp3.1\OOPlaba3.dll
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\obj\Debug\netcoreapp3.1\OOPlaba3.pdb
+F:\to_git\OOP-labs\OOPlaba3\OOPlaba3\OOPlaba3\obj\Debug\netcoreapp3.1\OOPlaba3.genruntimeconfig.cache

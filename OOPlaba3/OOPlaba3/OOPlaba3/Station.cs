@@ -17,6 +17,8 @@ namespace OOPlaba3
             Address = "emptyAddress";
             Capasity = 1;
             cars = new Car[0];
+            //cars = new Car[1];
+            //cars[0] = new Car();
 
         }
         public override string ToString()
@@ -27,7 +29,7 @@ namespace OOPlaba3
                 str += " примет авто на диагностику.";
             }
             else
-                str += $" загружена. ";   //Загружена. Авто и % от готовности
+                str += $" загружена. ";   //Загружена. Авто и % от готовности {cars[0].Number}
             return str;
         }
     }
