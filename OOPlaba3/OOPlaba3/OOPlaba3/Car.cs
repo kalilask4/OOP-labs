@@ -12,7 +12,7 @@ namespace OOPlaba3
         public string Vin { get; set; } //Vehicle Identification Number
         public bool Is_varning { get; set; }
         public bool Is_Sto_registed { get; set; }
-        //+ class Engine engine;
+        public Engine engine;
         //+ class Driver driver;
 
         public Car()

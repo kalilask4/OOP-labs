@@ -25,7 +25,7 @@ namespace OOPlaba3
         public override string ToString()
         {
 
-            string str = $"\nАвтосервис {Name}. Станций {stations.Length}\n";
+            string str = $"\nАвтосервис {Name}. Станций {stations.Length}.\n";
             foreach (Station station in stations) //Здесь можем воспользоваться foreach - данные только считываем
             {
                 str += $"{station}\n";
